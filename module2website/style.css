@@ -1,0 +1,50 @@
+
+*{box-sizing: border-box;}
+
+body{
+	font-family: cursive;
+	text-align: center;
+	color: black;
+}
+div{
+	float: left;
+}
+section{
+	background-color: lightgray;
+	border: 2px solid black;
+	margin: 12px;
+}
+article{
+	font-size: 120%;
+	font-weight: bold;
+	border-left: 2px solid black;
+	border-bottom: 2px solid black;
+	width: 120px;
+	float: right;
+}
+p{
+	text-align: left;
+	margin-bottom: 0;
+	padding: 10px;
+	clear: right;
+}
+#art1{
+	background-color: pink;
+}
+#art2{
+	background-color: red;
+	color: white;
+}
+#art3{
+	background-color: yellow;
+}
+@media(min-width: 992px){
+	div{
+		width: 33.33%;
+	}
+}
+@media(min-width: 768px) and (max-width: 991px){
+	.half{
+		width: 50%;
+	}
+}
